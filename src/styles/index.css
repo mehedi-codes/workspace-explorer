@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+:root {
+    --inter: "Inter Variable", "Inter", sans-serif;
+    --jetbrains-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace;
+}
+
+@layer base {
+    * {
+        @apply scrollbar-thin scrollbar-track-transparent;
+    }
+
+    body {
+        font-family: var(--jetbrains-mono);
+    }
+}
