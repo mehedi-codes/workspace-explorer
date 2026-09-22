@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 const viteConfig = defineConfig({
   plugins: [react(), tailwindcss(),],
-  resolve: { tsconfigPaths: true }
+  resolve: { tsconfigPaths: true },
 })
 
 export default viteConfig;

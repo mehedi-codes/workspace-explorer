@@ -1,10 +1,16 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 @import "@fontsource-variable/inter";
 @import "@fontsource-variable/jetbrains-mono";
 
 :root {
     --inter: "Inter Variable", "Inter", sans-serif;
     --jetbrains-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace;
+}
+
+@theme inline {
+    --font-sans: var(--inter);
+    --font-mono: var(--jetbrains-mono);
 }
 
 @layer base {
