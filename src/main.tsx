@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client';
 
 import '@/styles/index.css';
 
-import { Application } from './layouts/application';
+import { App } from './layouts/app';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Application />
+    <App />
   </StrictMode>,
 );
